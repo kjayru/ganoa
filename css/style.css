@@ -1,0 +1,216 @@
+
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time{ display: inline }
+
+/* Left & Right alignment */
+
+.left { float:left;}
+.right { float:right;}
+.wrapper {width:100%; overflow:hidden;}
+
+/* Global properties ======================================================== */
+
+body{ /*background: url(../images/bg.jpg) top center repeat; border:0; font:14px Arial, Helvetica, sans-serif; color:#fff; line-height:18px; min-width:940px;*/
+background:#ddd;
+
+border: 0;
+font-family: 'ABeeZee', 'Nunito', sans-serif;
+font: 14px ;
+color: #fff;
+line-height: 18px;
+min-width: 940px;
+}
+
+body, html{ height: 100%; }
+.contenido{
+	width: 100%;
+	height: 800px;
+	position: absolute;
+
+	top: 1px;
+	z-index: 9999;
+	}
+/* Global Structure ============================================================= */
+
+.main {	margin:0 auto;	width: 940px; height:750px; position: relative; top:50%; margin-top:-375px;
+color: #353534;
+}
+
+
+/* ============================= main layout ====================== */
+
+a{ color:#fff; text-decoration: none; outline:none}
+a:hover{ color:rgb(204, 194, 194);}
+h1{ float:left; padding:0 0 0 1px}
+h2{ 
+	font-size: 35px;
+	line-height: 63px;
+	color: #999;
+	padding: 46px 0 0 0;
+
+}
+h3{
+	font-size: 22px;
+	line-height: 1.2em;
+	color: #fff;
+	text-align: right;
+	padding: 16px 0 12px 0;
+	font-weight: bold;
+	 }
+h3 a{ color:#999;}
+h3 a:hover{ color:rgb(204, 194, 194);}
+p{ padding-bottom:18px;}
+
+/* ============================= header ====================== */
+header{ height:100px; padding-top:197px; position:relative; z-index:99}
+
+#logo{
+	display: block;
+	background: url(../images/logo.png) no-repeat;
+	width: 500px;
+	height: 88px;
+	text-indent: -9999px;
+	}
+
+#menu { position:absolute; background:url(../images/menu_bg.png) no-repeat; width:317px; height:387px; position:absolute; right:10px; top:-800px; padding:87px 0 0 130px}
+#menu li {}
+#menu li a{ display:block; font-size:39px; color:#fff; line-height:98px; }
+#menu li a:hover{ color:rgb(204, 194, 194);}
+
+#menu2{ display:none; float:right; padding:5px 90px 0 0}
+#menu2 li { float:left; padding-right:22px;  margin-right:13px;}
+#menu2 .end{ padding-right:0; margin-right:0; background:none}
+#menu2 li a{ display:block; font-size:30px; line-height:1.2em; color:#ffb200;}
+#menu2 .active a{ color:#333;}
+
+/* ============================= content ====================== */
+
+#content{ height:360px;
+z-index:100 !important;
+margin-top: 34px;
+}
+
+#content article{ display:none; position: absolute;
+z-index: 9999;
+}
+
+figure{ position:relative; float:left;width: 257px;
+height: 200px;}
+figure a{ position:relative; width:141px; height:141px; display:block;}
+figure img{ position: absolute; width:100%; height:100%; top:0; left:0}
+
+
+.pad_top1{ padding-top:65px;}
+.pad_bot1{ padding-bottom:30px;}
+.marg_right1{ margin-right:10px;}
+.pad_left1{ padding-left:20px;}
+
+#page_1 h2{ float: left; width:460px; margin-right:20px; text-align:right;}
+#page_2 .pad_top1{ padding-top:26px;}
+#page_3 h2{ text-align:right;}
+
+.link1{ font-size:22px; line-height:24px; color:#ffb200; display:inline-block; margin-top:12px; margin-bottom:37px; padding-bottom:2px;}
+.link1:hover{ color:#999}
+
+
+.pp_nav{ color:#000;padding-bottom:0; }
+.pp_description{ padding-bottom:0; color:#000;}
+.pp_details{ margin-bottom:-15px !important;}
+
+#slideshow{ height:200px;width:100%; overflow:hidden; margin-bottom:19px;}
+#slideshow p{ text-align:right; width:100%; height:220px;}
+#slideshow div{ background: none !important; width:100% !important;}
+
+.next, .prev{ float:right; width:38px; height:38px; position:relative; display:block; }
+.prev{ margin-right:2px;}
+.next img, .prev img{ position:absolute; top:0; left:0}
+
+.pagination{ position:absolute; width:382px; height:382px; top:57px; right:0}
+.pagination a{ position:absolute; width:0%; height:0%; cursor: default; display:block; z-index:1; top:191px; left:191px}
+.pagination a img{ width:100%; height:100%}
+
+.pagination .active{ z-index:3}
+
+
+/* ============================= footer ====================== */
+
+footer { font-size:12px; line-height:1.2em;  padding-top:0px;}
+footer a{}
+footer a:hover{}
+
+#contats{ font-size: 15px;
+	line-height: 1.2em;
+	position: relative;
+	right: 20px;
+	top: -36px;
+}
+
+/* ============================= forms ============================= */
+
+#contact-form { padding-top:4px;}
+#contact-form .link1{ float:right;}
+#back{ float:right;}
+#contact-form input {  width:370px; background: none; padding:7px 8px;  float:left; font:14px Arial, Helvetica, sans-serif; color:#999; height:16px;}
+#contact-form textarea { overflow: auto;width:564px; background: none; padding:7px 8px;  float:left; font:14px Arial, Helvetica, sans-serif; height:126px; margin:0}
+#contact-form fieldset {border:none; width:100%; overflow:hidden;}
+#contact-form .rowElem {display:block;position:relative; width:100%; overflow:hidden; min-height:36px}
+#contact-form .textarea-box { width:100%;display:inline-block;position:relative; min-height:152px; overflow:hidden;}
+#contact-form label {padding:0;display: none;	font-size:10px;	position: relative;font-size:11px; left:10px;top:1px; margin-bottom:0px}
+#contact-form .error {color:#999;}
+#contact-form fieldset {border:none;}
+div#contact_form .download-box p{
+	padding:16px 30px; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px;
+}
+#contact-form .bg{ 
+	float: left;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	height: 30px;
+
+}
+#contact-form .textarea-box .bg{ height:140px;}
+.nube1{
+	position: absolute;
+	width: 1250px;
+	background: #ddd;
+	top: 1px;
+	overflow: hidden;
+	z-index: 1;
+	height: 636px;
+	left: 1px;
+	}
+.parallax-viewport {
+    position: relative;     /* relative, absolute, fixed */
+    overflow: hidden;
+}
+.parallax-layer {
+    position: absolute;
+}
+#graf1{
+	position: absolute;
+	}
+#graf2{
+	position: absolute;
+	}
+#graf3{
+	position: absolute;
+	}
+#page_3{
+	width: 100%;
+	}
+.wrapperund{
+	width: 1024px;
+	margin: 0 auto;
+	min-height:500px;
+}
+#contenidos{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 1024px;
+	min-height:500px;
+}

@@ -1,0 +1,26 @@
+
+.col1, .col2, .col3, .cols { float:left;}
+
+.col1{ width:460px;}
+.cols{ width:220px;}
+
+/*======= index.html =======*/
+/*======= index-1.html =======*/
+/*======= index-2.html =======*/
+#page_3 .col1{ width:475px; padding-left:65px}  
+/*======= index-3.html =======*/
+#page_4 .col1{ width:210px;}
+#page_4 .pad_left1{ padding-left:67px;}
+#page_4 .col2{ width:583px;}
+#page_4 h2{ margin-top:1px; padding-bottom:26px}
+/*======= index-4.html =======*/
+#page_5 .col1{ width:860px;}
+#page_5 a{ color:#ffb200}
+#page_5 a:hover{ text-decoration:underline}
+#page_5 h2{ margin-top:1px; padding-bottom:26px}
+/*======= index-5.html =======*/
+#page_more .col1{ width:210px;}
+#page_more .pad_left1{ padding-left:67px;}
+#page_more .col2{ width:583px;}
+#page_more h2{ margin-top:1px; padding-bottom:26px}
+/*======= index-6.html =======*/
