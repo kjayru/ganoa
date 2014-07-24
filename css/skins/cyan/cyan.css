@@ -1,0 +1,47 @@
+.color,
+.content_about h2,
+.skills_result h2 span,
+.text_testimonials h3,
+.nav-tabs > li.active > a,
+.text_testimonials_blog span,
+.nav > li > a:hover{
+	color: #2baab1;
+}
+.line,
+.line_vertical,
+.progress-bar,
+.text_portfolio .botton,
+.item_blog .opacity_image .botton,
+.botton:hover,
+.header_section,
+.form_contact .botton,
+#theme-options .title,
+#theme-options .title span,
+#theme-options .layout-style li.active,
+.botton_color,
+.tags li{
+	background-color: #2baab1;
+}
+.btn-primary,
+.btn-primary:hover{
+	background-image: linear-gradient(to bottom, #2baab1 0%, #2baab1 100%);
+	border-color: #2baab1;
+}
+.bar_personal ul li{
+	border-right: 1px solid #2baab1;
+}
+.botton,
+.newsletter .botton,
+.form_contact .botton{
+	border: 1px solid #2baab1;
+}
+.circle{
+	background: url(../../../img/circle_cyan.png) no-repeat;
+}
+@media handheld, only screen and (max-width: 385px) {	
+
+	.bar_personal ul li {
+		border-right: none;
+	}
+
+}
